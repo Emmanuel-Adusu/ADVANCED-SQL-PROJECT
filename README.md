@@ -132,7 +132,7 @@ ORDER BY month;
 ````
 
 ### 📌 Running Revenue (Window Function)
-``sql
+````sql
 SELECT 
     month,
     revenue,
@@ -146,10 +146,10 @@ FROM (
     JOIN products p ON oi.product_id = p.product_id
     GROUP BY month
 ) t;
-``
+````
 
 ### 📌 Customer Lifetime Value (CTE)
-``sql
+````sql
 WITH customer_revenue AS (
     SELECT 
         c.customer_id,
@@ -164,7 +164,7 @@ WITH customer_revenue AS (
 SELECT *
 FROM customer_revenue
 ORDER BY total_spent DESC;
-``
+````
 
 ---
 
