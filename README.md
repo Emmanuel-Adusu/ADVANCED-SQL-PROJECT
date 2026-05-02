@@ -171,7 +171,7 @@ ORDER BY total_spent DESC;
 ## 📊 Key Insights
 
 - 💰 A small group of customers contributes a large portion of total revenue
-- 📱 Electronics category generates the highest sales
+- 📱  Electronics category generates the highest sales
 - 📈 Revenue shows a steady month-over-month increase
 - ⚠️ Some products generate low revenue and may require attention
 
