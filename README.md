@@ -200,7 +200,9 @@ ORDER BY total_spent DESC;
 - Generate business insights from raw data
 - Communicate findings effectively
 
-##👤 Author
+---
+
+## 👤 Author
 
 Emmanuel Adusu
 Data Analyst | SQL | Power BI | Business Intelligence
